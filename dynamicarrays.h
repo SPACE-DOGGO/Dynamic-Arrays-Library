@@ -6,7 +6,7 @@ void AllocateMemory(int*& ar, int& count)
 {
     setlocale(0, "UKR");
 
-    cout << "Ïîæàëóéñòà, óêàæèòå êîëè÷åñòâî ýëåìåíòîâ: ";
+    cout << "ÐŸÐ¾Ð¶Ð°Ð»ÑƒÐ¹ÑÑ‚Ð°, ÑƒÐºÐ°Ð¶Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð²: ";
     cin >> count;
 
     if (count < 5) count = 5;
@@ -44,7 +44,7 @@ void UserFillArray(int* ar, int count)
     {
         int num;
 
-        cout << "Ââåäèòå ýëåìåíò: ";
+        cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚: ";
         cin >> num;
 
         ar[i] = num;
